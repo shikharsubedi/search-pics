@@ -22,6 +22,7 @@ class SearchBar extends React.Component {
               value={this.state.term}
               /> 
           </div>
+          <input type='submit' value='Search'/>
         </form>
       </div>
     )
